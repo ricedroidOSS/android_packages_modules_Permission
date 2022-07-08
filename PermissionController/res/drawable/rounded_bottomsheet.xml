@@ -15,9 +15,9 @@
 
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="?android:attr/colorPrimary" />
-    <corners android:topLeftRadius="16dp"
-        android:topRightRadius="16dp"
-        android:bottomLeftRadius="16dp"
-        android:bottomRightRadius="16dp"/>
+    <solid android:color="@color/dialog_color" />
+    <corners android:topLeftRadius="?android:attr/dialogCornerRadius"
+        android:topRightRadius="?android:attr/dialogCornerRadius"
+        android:bottomLeftRadius="?android:attr/dialogCornerRadius"
+        android:bottomRightRadius="?android:attr/dialogCornerRadius"/>
 </shape> 
